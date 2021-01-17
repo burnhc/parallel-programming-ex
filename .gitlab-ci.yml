@@ -1,0 +1,8 @@
+hasOver:
+    script: curl -s  https://courses.cs.washington.edu/courses/cse332/gitlab-ci/para/hasover.sh | bash
+longestSequence:
+    script: curl -s  https://courses.cs.washington.edu/courses/cse332/gitlab-ci/para/longestsequence.sh | bash
+getLeftMostIndex:
+    script: curl -s  https://courses.cs.washington.edu/courses/cse332/gitlab-ci/para/getleftmostindex.sh | bash
+filterEmpty:
+    script: curl -s  https://courses.cs.washington.edu/courses/cse332/gitlab-ci/para/filterempty.sh | bash
